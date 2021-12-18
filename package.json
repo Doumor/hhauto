@@ -1,0 +1,22 @@
+{
+  "name": "hhauto",
+  "version": "1.0.0",
+  "description": "Скрипт для автоподнятия резюме на hh.ru",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^13.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doumor/hhauto.git"
+  },
+  "author": "Doumor",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Doumor/hhauto/issues"
+  },
+  "homepage": "https://github.com/Doumor/hhauto#readme"
+}
