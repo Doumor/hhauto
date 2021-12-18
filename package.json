@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/Doumor/hhauto.git"
   },
-  "author": "Doumor",
+  "author": {
+    "name": "Doumor",
+    "email": "Doumor@vk.com"
+  },
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/Doumor/hhauto/issues"
