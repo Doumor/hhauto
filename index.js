@@ -10,7 +10,7 @@ async function run() {
     const page = await browser.newPage();
     await page.goto('https://hh.ru/account/login');
     await page.waitForTimeout(1000);
-    await page.click("#HH-React-Root > div > div > div > div > div > div > div:nth-child(1) > div.account-login-tile-content-wrapper > div.account-login-tile-content > div:nth-child(2) > div > div > form > div.account-login-actions > span")
+    await page.click("#HH-React-Root > div > div > div > div > div > div > div:nth-child(1) > div.account-login-tile-content-wrapper > div.account-login-tile-content > div:nth-child(2) > div > div > form > div.account-login-actions > button.bloko-link-switch")
     await page.waitForTimeout(1000);
     await page.focus('#HH-React-Root > div > div > div > div > div > div > div:nth-child(1) > div.account-login-tile-content-wrapper > div.account-login-tile-content > div:nth-child(2) > div > form > div:nth-child(7) > input');
     await page.keyboard.type(name)
